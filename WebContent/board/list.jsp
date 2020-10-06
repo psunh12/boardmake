@@ -33,7 +33,7 @@
 			<th>ID</th>
 			<th>이름</th>
 		</tr>
-		<c:forEach items= "${boardList}" var="item" varStatus="status">
+		<c:forEach items= "${List}" var="item" >
 			<tr>
 				<td>${item.u_idx}</td>
 				<td>${item.u_id}</td>

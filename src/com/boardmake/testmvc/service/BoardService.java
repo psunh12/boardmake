@@ -29,6 +29,6 @@ public class BoardService {
 	}
 	
 	public void insertBoardTest(BoardTest board) {
-		dao.insertBoardTest(board);
+		dao.BoardTest(board);
 	}
 }
